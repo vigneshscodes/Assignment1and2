@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Activity 6 Form 2</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset><legend>Cricket Info</legend>
+        <label>Favourite Cricketer: </label>
+        <input type="text" placeholder="Enter their Name"><br><br>
+
+        <label>Major Interest is in</label><br>
+        <input type="radio" name="option"><label>Batting</label><br>
+        <input type="radio" name="option"><label>Bowling</label><br>
+        <input type="radio" name="option"><label>Fielding</label><br><br>
+
+        <label>Favourite Teams among the options</label><br>
+        <input type="checkbox"><label>India</label><br>
+        <input type="checkbox"><label>Australia</label><br>
+        <input type="checkbox"><label>New Zealand</label><br>
+        <input type="checkbox"><label>England</label><br>
+        <input type="checkbox"><label>South Africa</label><br><br>
+
+        <label>Who is the Captain of CSK</label>
+        <select size="3">
+            <option>M S Dhoni</option>
+            <option>Ravi Jadeja</option>
+            <option>Ruturaj Gaikwad</option>
+            <option>Ravi Ashwin</option>
+        </select><br><br>
+
+        <label>Who is the Captain of MI</label>
+        <select size="1">
+            <option>Hardik Pandya</option>
+            <option>Rohit Sharma</option>
+            <option>Jasprit Bumrah</option>
+        </select><br><br>
+
+        <label>Write a short note about your favourite team</label><br>
+        <textarea rows="5" cols="40" placeholder="Enter your text here..."></textarea>
+        <br><br>
+        <label>Predict WTC Winners:</label><br>
+        <input list="team" placeholder="Choose...">
+        <datalist id="team">
+            <option value="South Africa">
+            <option value="Australia">
+        </datalist><br><br>
+
+        <label>Rate Team India performance in BGT</label><br>
+        <input type="range" min="0" max="100"><br><br>
+
+        <label>Upload your cricket pic:</label>
+        <input type="file"><br><br>
+
+        <label>Choose IND vs SA T20 Finals Date</label><br>
+        <input type="date">
+        </fieldset>
+    </form>
+</body>
+</html>
+
