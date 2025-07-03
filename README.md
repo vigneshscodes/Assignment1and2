@@ -1,1 +1,1 @@
-# Assignment1and2
+# Web Development Class Assignments - HTML CSS
